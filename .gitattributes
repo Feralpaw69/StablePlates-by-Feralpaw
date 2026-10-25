@@ -1,2 +1,11 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Keep GitHub's "Download ZIP" clean: only the addon folder(s) are included.
+# These files stay in the repository but are left out of the ZIP.
+/.gitattributes export-ignore
+/.github export-ignore
+/.gitignore export-ignore
+/LICENSE export-ignore
+/README.md export-ignore
+/images export-ignore
